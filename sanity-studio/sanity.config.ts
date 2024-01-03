@@ -10,7 +10,7 @@ export default defineConfig({
   name: 'default',
   title: 'salmon-dotterel',
 
-  projectId: 'm5fbywpb',
+  projectId: 'w9ym16s3',
   dataset: 'production',
 
   plugins: [deskTool(), visionTool(), ...(isDev ? devOnlyPlugins : [])],
