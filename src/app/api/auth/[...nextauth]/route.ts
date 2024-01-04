@@ -1,11 +1,11 @@
 import NextAuth from 'next-auth';
-import GithubProvider from 'next-auth/providers/github';
+import KakaoProvider from 'next-auth/providers/kakao';
 
 const handler = NextAuth({
   providers: [
-    GithubProvider({
-      clientId: process.env.GITHUB_ID         as string,
-      clientSecret: process.env.GITHUB_SECRET as string,
+    KakaoProvider ({
+      clientId: process.env.KAKAO_ID         as string,
+      clientSecret: process.env.KAKAO_SECRET as string,
     }),
   ],
 });
